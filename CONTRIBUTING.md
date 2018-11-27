@@ -38,7 +38,7 @@ Before you submit an issue, please search the issue tracker, maybe an issue for 
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-1. Search [GitHub](https://github.com/rafalschmidt97/yesterday-client/pulls) for an open or closed PR
+1. Search [GitHub](https://github.com/igroup-opole/yesterday-client/pulls) for an open or closed PR
    that relates to your submission. You don't want to duplicate effort.
 1. Fork the yesterday repository.
 1. Make your changes in a new git branch:
@@ -189,7 +189,7 @@ to read on GitHub as well as in various git tools.
 
 Footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-Samples: (even more [samples](https://github.com/rafalschmidt97/yesterday-client/commits/master))
+Samples: (even more [samples](https://github.com/igroup-opole/yesterday-client/commits/master))
 
 ```
 docs(contributing) update list of commit types
@@ -228,4 +228,4 @@ The body should include the motivation for the change and contrast this with pre
 The footer should contain any information about **Breaking Changes** and is also the place to
 reference GitHub issues that this commit **Closes**.
 
-[github]: https://github.com/rafalschmidt97/yesterday-client
+[github]: https://github.com/igroup-opole/yesterday-client
