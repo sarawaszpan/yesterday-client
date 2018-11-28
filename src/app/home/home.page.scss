@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Varela+Round');
 
+ion-content {
+  ion-slides {
+    color: #262626;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    font-family: Varela Round, sans-serif;
+    vertical-align: center;
+  }
+    ion-slide {
+      display: block;
+    }
+}
