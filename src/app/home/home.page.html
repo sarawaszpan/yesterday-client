@@ -1,6 +1,15 @@
+<!--<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">-->
+    <!--<div class="Aligner-item Aligner-item&#45;&#45;top"></div>-->
+    <!--<div id="welcome-animation" class="fourth-text">Welcome to</div>-->
+    <!--<div id="yesterday-animation" class="fourth-text">yesterday</div>-->
+    <!--<div class="Aligner-item Aligner-item&#45;&#45;bottom"></div>-->
+<!--</div>-->
 <ion-content>
-  <ion-slides pager="true" effect="cube" centeredSlides="true">
-    <ion-slide style="background-color: #ffffff">
+  <ion-slides pager="false" effect="cube" centeredSlides="true">
+    <ion-slide style="background-color: #ffffff; flex-direction: row;">
+      <h1 id="welcome-animation">Welcome to</h1>
+      <h1 id="yesterday-animation">yesterday.</h1>
+    </ion-slide><ion-slide style="background-color: #ffffff">
       <ion-icon name="quote"></ion-icon>
       <h1>Share your thoughts</h1>
       <p>post about your daily life</p>

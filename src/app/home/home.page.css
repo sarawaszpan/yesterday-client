@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+#custom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width: 100%;
+  background-color: #002a3e;
+  animation-name: fadeOut;
+  animation-delay: 9s;
+  animation-duration: 3s; }
+
+.fourth-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.4rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #F0A3BE; }
+
+#welcome-animation {
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 4s; }
+
+#yesterday-animation {
+  animation-name: fadeIn;
+  animation-delay: 4s;
+  animation-duration: 4s;
+  color: #7e57ff;
+  font-weight: bold; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.Aligner-item {
+  max-width: 50%; }
+
+.Aligner-item--top {
+  align-self: flex-start; }
+
+.Aligner-item--bottom {
+  align-self: flex-end; }
+
+ion-content ion-slides {
+  color: #262626;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: center; }
+ion-content ion-slide {
+  display: flex;
+  flex-direction: column; }
+ion-content ion-icon {
+  font-size: 30vw;
+  padding: 1%;
+  color: #6200EE; }
+ion-content h1 {
+  font-size: 7vw;
+  font-weight: 600; }
+ion-content p {
+  font-size: 5vw;
+  font-weight: 100;
+  margin: 0; }
+ion-content #heart {
+  -webkit-animation: rotation 7s infinite linear; }
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+
+/*# sourceMappingURL=home.page.css.map */
